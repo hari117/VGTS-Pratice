@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
-import 'package:studentlist/rest_api_task/card_Widget.dart';
-import 'package:studentlist/rest_api_task/error_widget.dart';
-import 'package:studentlist/rest_api_task/global_state_management.dart';
-import 'package:studentlist/rest_api_task/user_genarated_model.dart';
+import 'package:studentlist/rest_api_task/models/user_genarated_model.dart';
+import 'package:studentlist/rest_api_task/state_management/global_state_management.dart';
+import 'package:studentlist/rest_api_task/widgets/card_Widget.dart';
+import 'package:studentlist/rest_api_task/widgets/error_widget.dart';
 
 class HomePage extends StatefulWidget {
   @override

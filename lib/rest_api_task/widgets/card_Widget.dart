@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:studentlist/rest_api_task/card_details_page.dart';
-import 'package:studentlist/rest_api_task/global_state_management.dart';
-import 'package:studentlist/rest_api_task/text_widget.dart';
-import 'package:studentlist/rest_api_task/user_genarated_model.dart';
+import 'package:studentlist/rest_api_task/models/user_genarated_model.dart';
+import 'package:studentlist/rest_api_task/screens/card_details_page.dart';
+import 'package:studentlist/rest_api_task/state_management/global_state_management.dart';
+import 'package:studentlist/rest_api_task/widgets/text_widget.dart';
 
 class UserCard extends StatefulWidget {
   UserExtractedData oneUser;

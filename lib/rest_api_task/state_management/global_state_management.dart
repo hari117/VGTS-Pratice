@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:states_rebuilder/states_rebuilder.dart';
-import 'package:studentlist/rest_api_task/client_request.dart';
-import 'package:studentlist/rest_api_task/user_genarated_model.dart';
+import 'package:studentlist/rest_api_task/cleint_side/client_request.dart';
+import 'package:studentlist/rest_api_task/models/user_genarated_model.dart';
 
 class GlobalState extends StatesRebuilder {
   static GlobalState instance = GlobalState();

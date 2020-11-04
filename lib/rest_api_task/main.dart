@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:studentlist/rest_api_task/card_details_page.dart';
-import 'package:studentlist/rest_api_task/home_page.dart';
+import 'package:studentlist/rest_api_task/screens/card_details_page.dart';
+import 'package:studentlist/rest_api_task/screens/home_page.dart';
 
 void main() {
   runApp(RestApiTask());

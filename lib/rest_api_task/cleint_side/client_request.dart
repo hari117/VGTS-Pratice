@@ -1,8 +1,9 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as req;
-import 'package:studentlist/rest_api_task/automatic_genarated_model.dart';
-import 'package:studentlist/rest_api_task/user_genarated_model.dart';
+import 'package:studentlist/rest_api_task/models/automatic_genarated_model.dart';
+import 'package:studentlist/rest_api_task/models/user_genarated_model.dart';
+
 
 class ClientRequest {
   static final url="http://jsonplaceholder.typicode.com/posts";

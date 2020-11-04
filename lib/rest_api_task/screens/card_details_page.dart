@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:studentlist/rest_api_task/text_widget.dart';
-import 'package:studentlist/rest_api_task/user_genarated_model.dart';
+import 'package:studentlist/rest_api_task/models/user_genarated_model.dart';
+import 'package:studentlist/rest_api_task/widgets/text_widget.dart';
 
 class UserDetailsPage extends StatelessWidget {
   UserExtractedData user;
